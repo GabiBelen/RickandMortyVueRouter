@@ -1,7 +1,7 @@
 <template>
   <div class="container mt-5">
     <h2 class="fst-italic text-center mb-5">Rick and Morty</h2>
-    <div class="row" v-for="character of Characters" :key="character.id">
+    <div class="row" v-for="character of characters" :key="character.id">
       <div class="col">
         <h3>{{character.name}}</h3>
         <!-- personajes -->
